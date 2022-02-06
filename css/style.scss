@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+}
+section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 230px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.image {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    align-self: center;
+    margin-bottom: 15px;
+    & img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+.text {
+    // .text__min
+
+    &__min {
+        font-weight: 700;
+        margin-bottom: 5px;
+        padding: 0 5px;
+    }
+
+    // .text__sub
+
+    &__sub {
+        font-size: x-small;
+        font-weight: 400;
+        padding: 0 10px 20px;
+        opacity: 0.5;
+    }
+}
+.attribution {
+}
